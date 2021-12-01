@@ -27,7 +27,7 @@ Then run the command
 some output should pop up, when the execution is done, the last output should be the parameters used inside the experiment. Defined at the end of this README.md
 
 **Note:** Those parameters were the ones chosen and run by the original authors.
-
+**Important: ** Make sure lein command is working, otherwise the script will not work.
 
 
 ## Recommended Setup
@@ -42,8 +42,6 @@ there you can find the two graphs generated after running the experiment.
 
 **Note:** The automate-experiments-vacation2-v2.bash script only reproduces the experiment twice for each setting and takes the median of that to save time.
 
-
-`$ lein run -- -v original -w 1 -s 0 -t 1000 -r 50 -n 10 -p 5`
 
 
 ## Paramteres defintion:
