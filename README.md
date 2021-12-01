@@ -15,7 +15,7 @@ Make sure to reduce the amount of processes active in the background as much as 
 x86_64 GNU/Linux
 
 #### Lein
-You can run the program using [Leiningen](https://leiningen.org/).
+You can run the program using [Leiningen](https://leiningen.org/). Follow the instructions at that website to install and setup leiningen.
 
 To test if Leiningen is working, navigate to the /vacation2 directory inside the terminal using the command:<br />
 `$ cd vacation2-benchmark-replication-package/vacation2`
