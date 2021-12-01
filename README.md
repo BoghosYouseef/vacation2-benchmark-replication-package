@@ -2,7 +2,7 @@
 This is a replication package that runs the vacation2[1][2] benchmark. 
 
 ## Assumptions/Pre-requisites
-Desktop with 16 at least 16 Gb Memory.
+Desktop computer with at least 16 Gb Memory.
 processor      Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
 disk           512GB ADATA SSD SX900
 system         OptiPlex 9020 (05A4)
