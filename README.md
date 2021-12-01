@@ -27,7 +27,7 @@ Then run the command
 some output should pop up, when the execution is done, the last output should be the parameters used inside the experiment. Defined at the end of this README.md
 
 **Note:** Those parameters were the ones chosen and run by the original authors.<br />
-**Important: ** Make sure lein command is working, otherwise the script will not work.
+**Important:** Make sure lein command is working, otherwise the script will not work.
 
 
 ## Recommended Setup
