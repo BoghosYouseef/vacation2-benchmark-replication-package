@@ -32,7 +32,7 @@ some output should pop up, when the execution is done, the last output should be
 
 ## Recommended Setup
 
-1. Clone this repo using the command in the terminal: `git clone https://github.com/BoghosYouseef/vacation2-benchmark-replication-package`
+1. Clone this repo using the command in the terminal:<br /> `git clone https://github.com/BoghosYouseef/vacation2-benchmark-replication-package`
 2. Go inside the src folder inside the repo using the command: `cd vacation2-benchmark-replication-package/src/`
 3. Make the bash script executable using the command: `sudo chmod +x automate-experiments-vacation2-v2.bash`
 4. Run the script using the command: `bash automate-experiments-vacation2-v2.bash`
