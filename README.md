@@ -58,5 +58,5 @@ there you can find the two graphs generated after running the experiment.
 #### -d prnt debug information
 
 # References
-[1] github repo of the original [vacation2](https://github.com/jswalens/vacation2) benchmark
-[2] Swalens, J., Koster, J. D., & Meuter, W. D. (2021). Chocola: Composable Concurrency Language. ACM Transactions on Programming Languages and Systems (TOPLAS), 42(4), 1-56.
+-[1] github repo of the original [vacation2](https://github.com/jswalens/vacation2) benchmark
+-[2] Swalens, J., Koster, J. D., & Meuter, W. D. (2021). Chocola: Composable Concurrency Language. ACM Transactions on Programming Languages and Systems (TOPLAS), 42(4), 1-56.
