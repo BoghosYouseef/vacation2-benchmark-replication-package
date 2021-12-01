@@ -1,5 +1,5 @@
 # vacation2-benchmark-replication-package
-This is a replication package that runs the vacation2 benchmark. 
+This is a replication package that runs the vacation2[1][2] benchmark. 
 
 ## Assumptions/Pre-requisites
 Desktop with 16 at least 16 Gb Memory.
@@ -15,7 +15,18 @@ Make sure to reduce the amount of processes active in the background as much as 
 x86_64 GNU/Linux
 
 #### Lein
+You can run the program using [Leiningen](https://leiningen.org/). If Leiningen is not installed on your system, it is also included in the file lein, just substitute lein with ./lein in the command below.
 
+To test if Leiningen is working, navigate to the /vacation2 directory inside the terminal using the command:
+`$ cd vacation2-benchmark-replication-package/vacation2`
+
+Then run the command
+
+`$ lein run -- -v original -w 1 -s 0 -t 1000 -r 50 -n 10 -p 5`
+
+some output should pop up, when the execution is done, the last output should be the parameters used inside the experiment. Defined at the end of this README.md
+
+**Note:** Those parameters were the ones chosen and run by the original authors.
 
 
 
@@ -31,13 +42,11 @@ there you can find the two graphs generated after running the experiment.
 
 **Note:** The automate-experiments-vacation2-v2.bash script only reproduces the experiment twice for each setting and takes the median of that to save time.
 
-#lein run -- -v original -w 4 -s 8 -t 30 -n 300
 
-term
-: definition 
+`$ lein run -- -v original -w 1 -s 0 -t 1000 -r 50 -n 10 -p 5`
 
 
-#### Paramteres defintion:
+## Paramteres defintion:
 
 #### -v either orginal or txact.
 #### -w the number of primary worker actors.
@@ -48,3 +57,6 @@ term
 #### -p work factor for password generation.
 #### -d prnt debug information
 
+# References
+[1] github repo of the original [vacation2](https://github.com/jswalens/vacation2) benchmark
+[2] Swalens, J., Koster, J. D., & Meuter, W. D. (2021). Chocola: Composable Concurrency Language. ACM Transactions on Programming Languages and Systems (TOPLAS), 42(4), 1-56.
