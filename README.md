@@ -17,7 +17,7 @@ x86_64 GNU/Linux
 #### Lein
 You can run the program using [Leiningen](https://leiningen.org/).
 
-To test if Leiningen is working, navigate to the /vacation2 directory inside the terminal using the command:
+To test if Leiningen is working, navigate to the /vacation2 directory inside the terminal using the command:<br />
 `$ cd vacation2-benchmark-replication-package/vacation2`
 
 Then run the command
